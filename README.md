@@ -25,7 +25,7 @@ This project represents an **Indian Ethnic Wear Shopping Site**.
 ## 📸 Screenshots
 
 ### 🖥️ Desktop View
-![Desktop Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Product page - desktop view.jpg)
+![Desktop Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Product%20page%20-%20desktop%20view.jpg)
 
 ### 📱 Mobile View
 ![Mobile Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/saree%20palace%20mobile%20view.jpg)
@@ -33,7 +33,8 @@ This project represents an **Indian Ethnic Wear Shopping Site**.
 ### 🛍️ Product Bundle Section
 ![Bundle Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Add%20bundle%20to%20cart%20.jpg)
 
-
+### 🛍️ Pair with Products Section
+![Bundle Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Pair%20with%20-%20products%20.jpg)
 
 
 
