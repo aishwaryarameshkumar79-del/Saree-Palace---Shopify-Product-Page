@@ -1,5 +1,19 @@
 # Shopify-Like Product Page  ---  Saree Palace 
 
+## 📸 Screenshots
+
+### 🖥️ Desktop View
+![Desktop Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Product%20page%20-%20desktop%20view.jpg)
+
+### 📱 Mobile View
+![Mobile Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/saree%20palace%20mobile%20view.jpg)
+
+### 🛍️ Product Bundle Section
+![Bundle Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Add%20bundle%20to%20cart%20.jpg)
+
+### 🛍️ Pair with Products Section
+![Bundle Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/blob/main/assets/images/Pair%20with%20-%20products.jpg)
+
 ## Overview
 This project is a fully responsive, interactive product page built with **vanilla HTML, CSS, and JavaScript**. It mimics features commonly found in Shopify themes and demonstrates modular, clean coding practices.
 
@@ -21,21 +35,6 @@ This project represents an **Indian Ethnic Wear Shopping Site**.
 - Image zoom on hover
 - Persist variant selection using localStorage
 - Micro-interactions: hover effects, smooth transitions
-
-## 📸 Screenshots
-
-### 🖥️ Desktop View
-![Desktop Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Product%20page%20-%20desktop%20view.jpg)
-
-### 📱 Mobile View
-![Mobile Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/saree%20palace%20mobile%20view.jpg)
-
-### 🛍️ Product Bundle Section
-![Bundle Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Add%20bundle%20to%20cart%20.jpg)
-
-### 🛍️ Pair with Products Section
-![Bundle Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Pair%20with%20-%20products%20.jpg)
-
 
 
 ## How to Run Locally
