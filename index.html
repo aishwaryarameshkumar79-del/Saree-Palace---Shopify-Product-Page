@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Banarasi Silk Saree - Indian Ethnic Wear | Saree Palace</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">Saree Palace</div>
+            <nav class="nav">
+                <a href="#" class="nav-link">Sarees</a>
+                <a href="#" class="nav-link">Kurtis</a>
+                <a href="#" class="nav-link">Lehengas</a>
+                <a href="#" class="nav-link">New Arrivals</a>
+            </nav>
+            <div class="header-icons">
+                <span>🔍</span>
+                <span>❤️</span>
+                <span>🛒</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Product Section -->
+        <div class="product-section">
+            <!-- Image Gallery -->
+            <div class="image-gallery">
+                <div class="thumbnails" id="thumbnails">
+                    <!-- Thumbnails will be populated by JS -->
+                </div>
+                <div class="main-image-container">
+                    <img src="assets/images/saree-main.jpg" alt="Designer Banarasi Silk Saree" class="main-image" id="mainImage">
+                    <span class="badge new">New Arrival</span>
+                </div>
+            </div>
+
+            <!-- Product Info -->
+            <div class="product-info">
+                <h1>Designer Banarasi Silk Saree with Blouse</h1>
+                <div class="price">
+                    <span class="current-price">₹4,299</span>
+                    <span class="original-price">₹8,999</span>
+                    <span class="discount">52% OFF</span>
+                </div>
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span>(486 reviews)</span>
+                </div>
+                <p class="product-description">
+                    Elegant Banarasi silk saree with rich golden designs — perfect for weddings, festivals, and celebrations. Includes a matching unstitched blouse piece.
+                </p>
+
+                <!-- Color Variants -->
+                <div class="variant-section">
+                    <div class="variant-label">
+                        <span>Colour: <span id="selectedColor">Royal Blue</span></span>
+                        <button class="link-btn" onclick="openCompareColors()">Compare Colours</button>
+                    </div>
+                    <div class="color-swatches" id="colorSwatches">
+                        <!-- Color swatches will be populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Size Variants -->
+                <div class="variant-section">
+                    <div class="variant-label">
+                        <span>Blouse Size: <span id="selectedSize">M (36)</span></span>
+                        <button class="link-btn" onclick="openSizeChart()">Size Chart</button>
+                    </div>
+                    <div class="size-options" id="sizeOptions">
+                        <!-- Size options will be populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Quantity -->
+                <div class="variant-section">
+                    <div class="variant-label">Quantity</div>
+                    <div class="quantity-selector">
+                        <button class="qty-btn" onclick="decreaseQty()">-</button>
+                        <input type="number" id="quantity" value="1" min="1" readonly>
+                        <button class="qty-btn" onclick="increaseQty()">+</button>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button class="btn btn-primary" onclick="addToCart()">Add to Cart</button>
+                    <button class="btn btn-secondary">Buy Now</button>
+                </div>
+
+                <!-- Features -->
+                <div class="features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🚚</span>
+                        <span>Free delivery across India</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">↩️</span>
+                        <span>7-day easy returns</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">💳</span>
+                        <span>Cash on Delivery available</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>100% Authentic</span>
+                    </div>
+                </div>
+
+                <!-- Offers -->
+                <div class="offers">
+                    <h3>Available Offers</h3>
+                    <div class="offer-item">
+                        <span class="offer-icon">🏷️</span>
+                        <span><strong>Bank Offer:</strong> 10% instant discount on HDFC Bank Credit Cards</span>
+                    </div>
+                    <div class="offer-item">
+                        <span class="offer-icon">🎁</span>
+                        <span><strong>Special Offer:</strong> Buy 2 Get 1 Free on selected items</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Bundle -->
+        <div class="bundle-section">
+            <h2 class="bundle-title">Complete the Look - Save ₹800</h2>
+            <div class="bundle-items" id="bundleItems">
+                <!-- Bundle items will be populated by JS -->
+            </div>
+            <div class="bundle-pricing">
+                <div>
+                    <span class="original-price">₹7,297</span>
+                    <span class="bundle-total">₹6,499</span>
+                    <span class="savings">Save ₹798</span>
+                </div>
+                <button class="btn btn-primary" onclick="addBundleToCart()">Add Bundle to Cart</button>
+            </div>
+        </div>
+
+        <!-- Pair Well With -->
+        <div class="pair-well-section">
+            <h2 class="section-title">Pair Well With</h2>
+            <div class="product-scroll" id="pairWellProducts">
+                <!-- Products will be populated by JS -->
+            </div>
+        </div>
+
+        <!-- Tabs Section -->
+        <div class="tabs-container">
+            <div class="tabs">
+                <div class="tab active" data-tab="description">Description</div>
+                <div class="tab" data-tab="info">Product Information</div>
+                <div class="tab" data-tab="shipping">Shipping Details</div>
+            </div>
+            
+            <div class="tab-content active" id="description">
+                <h3>Product Description</h3>
+                <p>Drape yourself in elegance with this exquisite Banarasi silk saree. Handwoven by skilled artisans from Varanasi, this saree features intricate zari work and traditional butis that showcase the rich heritage of Indian textile art.</p>
+                <p>The luxurious silk fabric ensures a graceful fall and comfortable drape, making it perfect for weddings, festivals, and special occasions. The contrasting border adds a touch of grandeur, while the matching unstitched blouse piece allows you to customize your look.</p>
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>Premium Banarasi silk with authentic zari work</li>
+                    <li>Traditional floral and paisley motifs</li>
+                    <li>Contrasting golden border and pallu</li>
+                    <li>Includes unstitched blouse piece (80cm)</li>
+                    <li>Saree length: 5.5 meters</li>
+                    <li>Perfect for weddings and festivals</li>
+                    <li>Handwoven by artisans from Varanasi</li>
+                </ul>
+            </div>
+            
+            <div class="tab-content" id="info">
+                <h3>Product Information</h3>
+                <table class="info-table">
+                    <tr>
+                        <td><strong>Fabric:</strong></td>
+                        <td>Pure Banarasi Silk</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Blouse Fabric:</strong></td>
+                        <td>Art Silk</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Work:</strong></td>
+                        <td>Zari Weaving</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Occasion:</strong></td>
+                        <td>Wedding, Festival, Party</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Saree Length:</strong></td>
+                        <td>5.5 meters</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Blouse Length:</strong></td>
+                        <td>0.8 meters (Unstitched)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Care Instructions:</strong></td>
+                        <td>Dry clean only</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Origin:</strong></td>
+                        <td>Handwoven in Varanasi, India</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wash Care:</strong></td>
+                        <td>First wash dry clean recommended</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="tab-content" id="shipping">
+                <h3>Shipping & Returns</h3>
+                <h4>Shipping Information</h4>
+                <p><strong>Standard Delivery (4-6 business days):</strong> Free</p>
+                <p><strong>Express Delivery (2-3 business days):</strong> ₹99</p>
+                <p><strong>Cash on Delivery:</strong> Available</p>
+                <p>We ship across India. Estimated delivery time may vary based on location.</p>
+                
+                <h4>Return Policy</h4>
+                <p>We offer a 7-day return policy for all products. Items must be unused, unwashed, and in original condition with all tags attached.</p>
+                
+                <h4>Exchange Policy</h4>
+                <p>Size exchanges are available within 7 days of delivery. The product should be in its original condition.</p>
+                
+                <h4>Cancellation Policy</h4>
+                <p>Orders can be cancelled before dispatch. Once dispatched, please use our return policy.</p>
+            </div>
+        </div>
+
+        <!-- Related Products -->
+        <div class="related-products">
+            <h2 class="section-title">Similar Products You May Like</h2>
+            <div class="products-grid" id="relatedProducts">
+                <!-- Products will be populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Size Chart Modal -->
+    <div class="modal" id="sizeChartModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeSizeChart()">&times;</button>
+            <h2>Blouse Size Chart</h2>
+            <table class="size-chart-table">
+                <thead>
+                    <tr>
+                        <th>Size</th>
+                        <th>Bust (inches)</th>
+                        <th>Waist (inches)</th>
+                        <th>Shoulder (inches)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>S (34)</td>
+                        <td>34</td>
+                        <td>28</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>M (36)</td>
+                        <td>36</td>
+                        <td>30</td>
+                        <td>14.5</td>
+                    </tr>
+                    <tr>
+                        <td>L (38)</td>
+                        <td>38</td>
+                        <td>32</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>XL (40)</td>
+                        <td>40</td>
+                        <td>34</td>
+                        <td>15.5</td>
+                    </tr>
+                    <tr>
+                        <td>XXL (42)</td>
+                        <td>42</td>
+                        <td>36</td>
+                        <td>16</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="margin-top: 20px; color: #666;">Note: Blouse piece is unstitched. Please provide measurements for stitching.</p>
+        </div>
+    </div>
+
+    <!-- Compare Colors Modal -->
+    <div class="modal" id="compareColorsModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeCompareColors()">&times;</button>
+            <h2>Compare Colours</h2>
+            <p>Select colours to compare side by side</p>
+            <div class="compare-grid" id="compareGrid">
+                <!-- Compare items will be populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
