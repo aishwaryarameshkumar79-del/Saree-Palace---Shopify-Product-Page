@@ -22,6 +22,20 @@ This project represents an **Indian Ethnic Wear Shopping Site**.
 - Persist variant selection using localStorage
 - Micro-interactions: hover effects, smooth transitions
 
+## 📸 Screenshots
+
+### 🖥️ Desktop View
+![Desktop Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Product page - desktop view.jpg)
+
+### 📱 Mobile View
+![Mobile Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/saree%20palace%20mobile%20view.jpg)
+
+### 🛍️ Product Bundle Section
+![Bundle Screenshot](https://github.com/aishwaryarameshkumar79-del/Saree-Palace---Shopify-Product-Page/raw/main/assets/images/Add%20bundle%20to%20cart%20.jpg)
+
+
+
+
 
 ## How to Run Locally
 
